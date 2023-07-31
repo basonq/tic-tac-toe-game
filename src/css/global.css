@@ -1,0 +1,12 @@
+body {
+    background-color: cadetblue;
+    user-select: none;
+    margin: 0;
+}
+
+button {
+    background-color: aquamarine;
+    border: 0;
+    margin-left: 6px;
+    margin-bottom: 6px;
+}

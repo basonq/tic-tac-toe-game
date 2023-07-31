@@ -1,0 +1,61 @@
+.tic-tac-toe {
+    display: flex;
+}
+
+.playing-field {
+    margin: auto;
+    width: 618px;
+    margin-top: calc(50vh - 305px);
+}
+
+.playing-field .button {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    margin-left: 5px;
+    color:  cadetblue;
+    font-size: 160px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playing-field > div {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.player {
+    width: 150px;
+    height: 300px;
+    margin-top: calc(50vh - 150px);
+    font-size: 200px;
+    /* text-align: center; */
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color:  white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.x-color-active {
+    background-color: #3C59EF;
+}
+
+.x-color {
+    border: 5px solid #3C59EF;
+}
+
+
+.o-color {
+    border: 5px solid #F4B922;
+}
+
+.o-color-active {
+    background-color: #F4B922;
+}
+
